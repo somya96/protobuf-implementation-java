@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+repositories {
+   mavenCentral()
+}
+
+dependencies {
+   compile 'com.google.protobuf:protobuf-java:3.11.4'
+   compile 'com.google.protobuf:protobuf-java-util:3.11.4'
+}
