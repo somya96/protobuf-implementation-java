@@ -6,7 +6,7 @@ import generated.Person.Employee.Nationality;
 
 public class ProtobufImplementation {
 
-    public static void main() {
+    public static void main(String[] args) {
         try {
             Employee employee = createEmployee();
             ByteString empByteString = employee.toByteString();
